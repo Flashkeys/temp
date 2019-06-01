@@ -1,0 +1,4 @@
+// curl localhost:3002/movies -XPOST -H 'Content-Type: application/json' -d '{"title": "test", "rating": 3}'
+// curl localhost:3002/movies
+// curl localhost:3002/1 -XDELETE
+// curl localhost:3002/movies/1 -XPUT -H 'Content-Type: application/json' -d '{"title": "another", "rating": 3}'
