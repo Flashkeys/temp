@@ -1,0 +1,15 @@
+html
+    head
+        title= title 
+    body
+        h1= message
+        form(method="post" action= "/user")
+            p= pmail
+            input(type="text" name="email")
+            p= ppass
+            input(type="password" name="password")
+            button(type="submit") Subnootnoot
+            ul
+            each val in users
+                li= val.email
+                li= val.password

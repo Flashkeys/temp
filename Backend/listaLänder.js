@@ -13,6 +13,7 @@ const countries = ["AF|Afghanistan", "AL|Albania", "DZ|Algeria", "AS|American Sa
 ];
 //GET /getData?page=1&size=20
 //curl 'localhost:3002/movies?page=1&size=20'
+// http://localhost:3000/countries?page=1&size=20
 
 app.get("/countries", (req, res) => {
     let id = req.query;
